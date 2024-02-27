@@ -1,0 +1,26 @@
+.cont{
+	display: flex;
+	flex-direction: column;
+	
+
+}
+.box1{
+	display: flex;
+	gap: 20px;
+}
+body{
+	background-color: rgb(83, 83, 175);
+}
+textarea.editor-textarea {
+    height: 100%;
+    overflow: auto;
+    resize: none;
+}
+.code-editor-card .card-body{
+    height: 30vh !important;
+}
+iframe#preview-panel {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
